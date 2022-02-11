@@ -5,6 +5,7 @@ _Anthony Linebaugh, Graham Clayton, Jacob Parris, Naomi Smith, Neal Smith_
 ## Table of Contents
 
 - [Overview](#overview)
+- [Links](#links)
 - [Build](#build)
 - [Installation](#installation)
 - [Usage](#usage)
