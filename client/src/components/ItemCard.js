@@ -5,6 +5,8 @@ import { ADD_INVENTORY, CHANGE_GOLD } from "../utils/mutation";
 import { QUERY_ME } from "../utils/queries";
 import AuthService from "../utils/auth";
 
+// had to comment out a few variables due to them no longer recieving data
+// need to look at the api and see what the new data and varaibles are called or if those exist anymore
 function Card(props) {
   const { item, inflationValue, changeGold, userGold } = props;
   const discStyle = { fontSize: "8px" };
