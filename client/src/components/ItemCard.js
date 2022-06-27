@@ -23,20 +23,20 @@ function Card(props) {
     equipment_category: { name: categoryName },
     cost: { quantity, unit },
     weapon_range,
-    damage: {
-      damage_dice,
-      damage_type: { name: damageName },
-    },
-    range: { normal, long },
+    // damage: {
+    //   damage_dice,
+    //   damage_type: { name: damageName },
+    // },
+    // range: { normal, long },
     armor_category: armorCategory,
-    armor_class: { base, dex_bonus: dexBonus },
+    //armor_class: { base, dex_bonus: dexBonus },
     weight,
     str_minimum: strMinimun,
     stealth_disadvantage: stealthDisadvantage,
     desc,
     tool_category: toolCategory,
     vehicle_category: vehicleCategory,
-    speed: { quantity: speedQuantity, unit: speedUnit },
+    // speed: { quantity: speedQuantity, unit: speedUnit },
     capacity,
   } = item;
 
@@ -123,15 +123,15 @@ function Card(props) {
                 <thead>
                   <tr>
                     <th>Range</th>
-                    {normal ? <th>normal:{normal}</th> : <></>}
-                    {long ? <th>long: {long}</th> : <></>}
+                    {/* {normal ? <th>normal:{normal}</th> : <></>}
+                    {long ? <th>long: {long}</th> : <></>} */}
                     <th>Dmg</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>{weapon_range}</td>
-                    <td>{damage_dice}</td>
+                    {/* <td>{damage_dice}</td> */}
                   </tr>
                 </tbody>
               </table>
@@ -144,7 +144,7 @@ function Card(props) {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>{damageName}</td>
+                    {/* <td>{damageName}</td> */}
                     <td>{weight} lbs</td>
                   </tr>
                 </tbody>
@@ -173,7 +173,7 @@ function Card(props) {
                 <tbody>
                   <tr>
                     <td>{armorCategory}</td>
-                    <td>{base}</td>
+                    {/* <td>{base}</td> */}
                   </tr>
                 </tbody>
               </table>
@@ -201,7 +201,7 @@ function Card(props) {
                 <tbody>
                   <tr>
                     <td>
-                      {dexBonus && <p>Dex Bonus</p>}
+                      {/* {dexBonus && <p>Dex Bonus</p>} */}
                       {stealthDisadvantage && <p>Stealth Disadvantage</p>}
                     </td>
                   </tr>
@@ -288,8 +288,8 @@ function Card(props) {
                   <tbody>
                     <tr>
                       <td>
-                        {speedQuantity}
-                        {speedUnit}
+                        {/* {speedQuantity}
+                        {speedUnit} */}
                       </td>
                       <td>{capacity}</td>
                     </tr>
@@ -321,10 +321,10 @@ function Card(props) {
           vehicleCategory === "Waterborne Vehicles" && (
             <div className={`back-facing ${rarity}`}>
               <p>{vehicleCategory}</p>
-              <p>
+              {/* <p>
                 Speed: {speedQuantity}
                 {speedUnit}
-              </p>
+              </p> */}
               <p style={discStyle}>{desc}</p>
               <p>
                 <button className="btn" onClick={onClick}>
