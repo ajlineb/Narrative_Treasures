@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e68bfcaa.css",
-    "main.js": "/static/js/main.45998c50.js",
+    "main.js": "/static/js/main.bd2ba51e.js",
     "static/media/new-nt-site-logo-2.png": "/static/media/new-nt-site-logo-2.138afefc9b3b8ab3f401.png",
     "index.html": "/index.html",
     "main.e68bfcaa.css.map": "/static/css/main.e68bfcaa.css.map",
-    "main.45998c50.js.map": "/static/js/main.45998c50.js.map"
+    "main.bd2ba51e.js.map": "/static/js/main.bd2ba51e.js.map"
   },
   "entrypoints": [
     "static/css/main.e68bfcaa.css",
-    "static/js/main.45998c50.js"
+    "static/js/main.bd2ba51e.js"
   ]
 }
