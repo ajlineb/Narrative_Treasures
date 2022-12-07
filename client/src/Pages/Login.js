@@ -89,11 +89,12 @@ const Home = () => {
             <button className="w-100 btn btn-lg pb-10 text-light" type="submit">
               Sign in
             </button>
+            {error && (
+              <div className="my-3 p-3 bg-danger text-white">
+                {error.message}
+              </div>
+            )}
           </form>
-        )}
-
-        {error && (
-          <div className="my-3 p-3 bg-danger text-white">{error.message}</div>
         )}
       </main>
     </div>
